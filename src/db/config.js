@@ -12,13 +12,4 @@ mongoose.connect(`mongodb+srv://admin:120297as@clustertest-6bxmv.azure.mongodb.n
     .catch((err) => console.log(err.message));
 
 
-module.exports = {
-    momgoose
-}
-
-// const Cat = mongoose.model('Cat', { name: String });
-
-
-// const kitty = new Cat({ name: 'Lulita' });
-// kitty.save().then(() => console.log('meow'))
-//     .catch((err) => console.log(err.message));
+module.exports = mongoose
