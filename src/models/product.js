@@ -19,14 +19,4 @@ const ProductSchema = mongoose.Schema({
 
 const Product = mongoose.model("Product", ProductSchema)
 
-// const surface = new Product({
-//     name: "Surface Pro",
-//     stock: 1200,
-//     value: 340000
-// })
-
-// surface.save()
-//     .then((data) => console.log(data))
-//     .catch(err => console.log(err.message))
-
 module.exports = Product
